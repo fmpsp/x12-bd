@@ -21,3 +21,22 @@
 // }
 
 // window.addEventListener('scroll', onScroll);
+
+
+const audio = document.getElementById("my-audio");
+const button = document.querySelector(".audio-button");
+const playPause = document.getElementById("play-pause")
+let isPlaying = false;
+
+function toggleAudio() {
+    if (isPlaying) {
+    audio.pause();
+    playPause.classList.remove('fa-stop');
+    playPause.classList.add('fa-play');
+    } else {
+    audio.play();
+    playPause.classList.remove('fa-play');
+    playPause.classList.add('fa-stop');
+    }
+    isPlaying = !isPlaying;
+}

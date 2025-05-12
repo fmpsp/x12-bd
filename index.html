@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ad5c223a64.js" crossorigin="anonymous"></script>
     <title>Xianne's 12th Birthday Invitation</title>
 </head>
 <body>
+    <button class="audio-button" onclick="toggleAudio()"><i id="play-pause" class="fa-solid fa-play"></i></button>
     <section class="landing">
         <img src="assets/imgs/landing-text.png" alt="Xianne's Turning Twelve!" class="landing-text">
     </section>
     <section class="moment-1">
+        <h1>BIRTHDAY ALBUM</h1>
         <img src="assets/imgs/xianne12.png" alt="">
         <img src="assets/imgs/xianne11.png" alt="">
         <img src="assets/imgs/xianne10.png" alt="">
@@ -61,8 +64,11 @@
         <h1>RSVP</h1>
         <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLScEXm6kLSFHyRh-q4ENUauoKJmDNd6eK1ns7jl0YqL69L9jiA/viewform?embedded=true" width="640" height="626" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </section>
-        <section class="footer">
-            <img class="cya" src="assets/imgs/cya.png" alt="">
-        </section>
+    <section class="footer">
+        <img class="cya" src="assets/imgs/cya.png" alt="">
+        <audio loop autoplay id="my-audio">
+            <source src="assets/media/skaterboy.mp3" type="audio/mpeg">
+        </audio>
+    </section>
 </body>
 </html>

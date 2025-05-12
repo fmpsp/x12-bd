@@ -64,6 +64,13 @@ section {
     box-shadow: -1px 7px 18px -5px rgba(0,0,0,0.24);
 }
 
+.moment-1 h1 {
+    text-align: center;
+    font-family: "MADE Tommy Soft Bold", sans-serif;
+    font-size: 9vw;
+    color: #794dbb;
+}
+
 .letter-1, .letter-2 {
     background: url(assets/imgs/paper-texture-1.png);
     box-shadow: 0px -10px 50px -17px rgba(39, 11, 77, 0.75) inset;
@@ -265,3 +272,21 @@ section {
         height: 45vh;
     }
   }
+
+  /* AUDIO */
+
+  .audio-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #794dbb;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 24px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 9999;
+  }    
