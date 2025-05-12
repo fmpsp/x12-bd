@@ -27,6 +27,7 @@ const audio = document.getElementById("my-audio");
 const button = document.querySelector(".audio-button");
 const playPause = document.getElementById("play-pause")
 let isPlaying = false;
+audio.volume = 0.3;
 
 function toggleAudio() {
     if (isPlaying) {
